@@ -3,23 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Website</title>
+    <title>MedNxt - Your Trusted Medicine Partner</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
-        header { background-color: #333; color: white; padding: 1rem; }
-        footer { background-color: #333; color: white; padding: 1rem; position: fixed; bottom: 0; width: 100%; }
-        main { padding: 2rem; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 1.5rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        main {
+            padding: 2rem 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .offer {
+            background-color: #e9c46a;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            font-size: 1.2rem;
+        }
+
+        .trust {
+            margin: 1rem 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #f4a261;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #e76f51;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .logo-placeholder {
+            background-color: #ddd;
+            width: 100px;
+            height: 100px;
+            margin: 1rem auto;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+            color: #555;
+        }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Static Website</h1>
+        <h1>MedNxt</h1>
     </header>
+
     <main>
-        <p>This is a free static website built with HTML and CSS!</p>
+        <!-- Placeholder for Logo -->
+        <div class="logo-placeholder">
+            Your Logo
+        </div>
+
+        <p class="offer">
+            Get 10-15% OFF on all medicines with <strong>Free Same-Day Home Delivery</strong>.
+        </p>
+
+        <p class="trust">
+            At MedNxt, we prioritize your health and convenience. All our medicines are 100% genuine, and our delivery services are fast and reliable.
+        </p>
+
+        <p>
+            Place your order now and experience hassle-free service at your doorstep.
+        </p>
+
+        <!-- WhatsApp Button -->
+        <a 
+            class="cta-button"
+            href="https://wa.me/YOUR_PHONE_NUMBER?text=Hi%20MedNxt,%20I%20would%20like%20to%20place%20an%20order."
+            target="_blank">
+            Order on WhatsApp
+        </a>
     </main>
+
     <footer>
-        &copy; 2025 My Static Website
+        &copy; 2025 MedNxt. All Rights Reserved.
     </footer>
+
 </body>
 </html>
